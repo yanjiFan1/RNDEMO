@@ -12,10 +12,12 @@
   "dependencies": {
     "react": "16.9.0",
     "react-native": "0.61.5",
+    "react-redux": "^7.2.0",
     "yarn": "^1.22.4"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
+    "@babel/preset-react": "^7.0.0",
     "@babel/runtime": "^7.6.2",
     "@react-native-community/eslint-config": "^0.0.5",
     "babel-jest": "^24.9.0",

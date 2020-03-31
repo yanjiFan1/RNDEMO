@@ -1,5 +1,5 @@
 /**
- * Sample React Native App
+ * Sample React Native Root
  * https://github.com/facebook/react-native
  *
  * @format
@@ -33,7 +33,7 @@ const App: () => React$Node = () => {
           contentInsetAdjustmentBehavior="automatic"
           style={styles.scrollView}>
           <Header />
-          <Text>烟祭</Text>
+          <Text>烟祭111</Text>
           {global.HermesInternal == null ? null : (
             <View style={styles.engine}>
               <Text style={styles.footer}>Engine: Hermes</Text>
@@ -43,7 +43,7 @@ const App: () => React$Node = () => {
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>Step One</Text>
               <Text style={styles.sectionDescription}>
-                Edit <Text style={styles.highlight}>App.js</Text> to change this
+                Edit <Text style={styles.highlight}>Root.js</Text> to change this
                 screen and then come back to see your edits.
               </Text>
             </View>
@@ -111,5 +111,66 @@ const styles = StyleSheet.create({
     textAlign: 'right',
   },
 });
+// import Home from '../pages/home/Home';
+// import About from '../pages/about/About';
+// import { StackNavigator } from 'react-navigation';
+// import Splash from '../pages/Splash';
+// import CategoryContainer from '../containers/CategoryContainer';
+// import MainContainer from '../containers/MainContainer';
+// import WebViewPage from '../pages/ItemDetail/WebViewPage';
+// import Feedback from '../pages/Feedback/Feedback';
+// import About from '../pages/About/About';
+
+// const TabContainer = TabNavigator(
+//   {
+//     Main: { screen: MainContainer },
+//     Category: { screen: CategoryContainer },
+//     Feedback: { screen: Feedback },
+//     About: { screen: About }
+//   },
+//   {
+//     lazy: true,
+//     tabBarPosition: 'bottom',
+//     tabBarOptions: {
+//       activeTintColor: '#3e9ce9',
+//       inactiveTintColor: '#999999',
+//       showIcon: true,
+//       style: {
+//         backgroundColor: '#fff'
+//       },
+//       indicatorStyle: {
+//         opacity: 0
+//       },
+//       tabStyle: {
+//         padding: 0
+//       }
+//     }
+//   }
+// );
+// const App = StackNavigator(
+//   {
+//     Home: {
+//       screen: Home,
+//       navigationOptions: {
+//         headerLeft: null
+//       }
+//     },
+//     Web: { screen: About }
+//   },
+//   {
+//     initialRouteName: 'Home',
+//     headerMode: 'screen',
+//     navigationOptions: {
+//       headerStyle: {
+//         backgroundColor: '#3e9ce9'
+//       },
+//       headerTitleStyle: {
+//         color: '#fff',
+//         fontSize: 20
+//       },
+//       headerTintColor: '#fff'
+//     }
+//   }
+// );
 
 export default App;
