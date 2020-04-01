@@ -1,17 +1,20 @@
 import React from 'react';
+import {
+  Text
+} from 'react-native';
 
 class About extends React.Component {
-  constructor(props) {
-    super(props);
-  }
+    constructor(props) {
+        super(props);
+    }
 
-  render() {
-    return (
-      <div>
-      	我是关于页面
-      </div>
-    );
-  }
+    render() {
+        return ( 
+            <Text>
+                我是关于页面 
+            </Text>
+        );
+    }
 }
 
 export default About;

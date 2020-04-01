@@ -1,4 +1,7 @@
 import React from 'react';
+import {
+  Text
+} from 'react-native';
 
 class Home extends React.Component {
   constructor(props) {
@@ -7,9 +10,9 @@ class Home extends React.Component {
 
   render() {
     return (
-      <div>
-      	我是首页
-      </div>
+      <Text>
+      	我是首页我是首页我是首页我是首页我
+      </Text>
     );
   }
 }

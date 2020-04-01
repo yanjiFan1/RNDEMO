@@ -10,11 +10,11 @@ import App from './containers/app';
 // store.runSaga(rootSaga);
 
 const Root = () => (
-  // <Provider store={store}>
-  // <Provider>
-  //   <App />
-  // </Provider>
-  <App />
+    // <Provider store={store}>
+    // <Provider>
+    //   <App />
+    // </Provider>
+    <App/>
 );
 
 export default Root;
